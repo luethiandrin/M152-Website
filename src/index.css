@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.MuiDialogActions-root {
+  padding-right: 24px !important;
+}
+
+.dialog-title {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+}
+
+.fullscreen:-webkit-full-screen {
+  width: auto !important;
+  height: auto !important;
+  margin:auto !important;
+}
+ .fullscreen:-moz-full-screen {
+  width: auto !important;
+  height: auto !important;
+  margin:auto !important;
+}
+ .fullscreen:-ms-fullscreen {
+  width: auto !important;
+  height: auto !important;
+  margin:auto !important;
+}
+
+.fullscreen-p {
+  text-align: center;
+}
+
+.fullscreen-icon {
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+  cursor: pointer;
+}
+
+.innerImage:hover {
+  background-color: rgba(0, 0, 0, 0.87);
+}
+
+body {
+  overflow-x: hidden;
+}
