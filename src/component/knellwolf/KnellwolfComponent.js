@@ -1,11 +1,11 @@
 import * as React from 'react';
 
 import f1 from '../../resource/knellwolf/default/f1.jpg';
-import f1Edited from '../../resource/knellwolf/edited/f1-edited.jpg';
+import f1Edited from '../../resource/knellwolf/edited/f1.jpg';
 import f2 from '../../resource/knellwolf/default/f2.jpg';
-import f2Edited from '../../resource/knellwolf/edited/f2-edited.jpg';
+import f2Edited from '../../resource/knellwolf/edited/f2.jpg';
 import f3 from '../../resource/knellwolf/default/f3.jpg';
-import f3Edited from '../../resource/knellwolf/edited/f3-edited.jpg';
+import f3Edited from '../../resource/knellwolf/edited/f3.jpg';
 
 import ImageComponent from '../shared/ImageComponent';
 
