@@ -9,7 +9,7 @@ import f3Edited from '../../resource/mathez/edited/f3_edited.jpg';
 
 import ImageComponent from '../shared/ImageComponent';
 
-export default function LüthiComponent() {
+export default function MathezComponent() {
     const f1Text = "In diesem Bild sieht man das Berner Münster, welches sich am Münsterplatz befindet. Der etwas dunkler erscheinende Berg im Hintergrund bildet, mit den Wolken zusammen, einen schönen Kontrast zum eher hell gefärbten Münster."
     const f2Text = "In diesem Bild sieht man einen weiteren Wassersprinkler, welcher sich im Erdgeschoss des IET Gebäudes befindet. Die Aufnahme mit dem farbenfrohen Hintergrund der Wohnhäuser gleicht die eintönigen Farben des Objektes aus."
     const f3Text = "In diesem Bild sieht man Moos auf einem Stein, welches sich vor der Tiefgarage der GIBB befindet. Es ist ein beruhigendes Bild meiner Meinung nach und der Baum im Hintergrund gleicht das Bild aus."
