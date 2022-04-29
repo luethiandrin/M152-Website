@@ -1,11 +1,11 @@
 import * as React from 'react';
 
 import f1 from '../../resource/mathez/default/f1.jpg';
-//import f1Edited from '../../resource/mathez/edited/TODO';
+import f1Edited from '../../resource/mathez/edited/f1_edited.jpg';
 import f2 from '../../resource/mathez/default/f2.jpg';
-//import f2Edited from '../../resource/mathez/edited/TODO';
+import f2Edited from '../../resource/mathez/edited/f2_edited.jpg';
 import f3 from '../../resource/mathez/default/f3.jpg';
-//import f3Edited from '../../resource/mathez/edited/TODO';
+import f3Edited from '../../resource/mathez/edited/f3_edited.jpg';
 
 import ImageComponent from '../shared/ImageComponent';
 
