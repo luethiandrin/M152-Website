@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -11,9 +11,10 @@ import {
   Route
 } from "react-router-dom";
 
-import LüthiComponent from './component/luethi/LüthiComponent';
+import LuethiComponent from './component/luethi/LüthiComponent';
 import MathezComponent from './component/mathez/MathezComponent';
 import KnellwolfComponent from './component/knellwolf/KnellwolfComponent';
+import WebcamComponent from './component/webcam/WebcamComponent';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,9 +22,10 @@ ReactDOM.render(
       <NavBar />
       <App />
       <Routes>
-        <Route path="luethi" element={<LüthiComponent />} />
+        <Route path="luethi" element={<LuethiComponent />} />
         <Route path="knellwolf" element={<KnellwolfComponent />} />
         <Route path="mathez" element={<MathezComponent />} />
+        <Route path="webcam" element={<WebcamComponent />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>,

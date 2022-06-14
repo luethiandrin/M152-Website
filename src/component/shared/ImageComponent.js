@@ -35,14 +35,14 @@ export default function ImageComponent({image, editedImage, description, initX, 
     if (metadataMap==null) {
         return (
             <div  className='imageBox'>
-                <img id={image} className='image' src={image} onClick={handleOpen}></img>
+                <img id={image} className='image' alt='' src={image} onClick={handleOpen}></img>
             </div>
         )
     }
     
     return (
         <div  className='imageBox'>
-            <img id={image} className='image' src={image} onClick={handleOpen}></img>
+            <img id={image} className='image' alt='' src={image} onClick={handleOpen}></img>
             {openModal &&
                 <MetadataDialogComponent metadata={metadataMap} toggleModal={handleClose} 
                 description={description} image={image} eImage={editedImage} initX={initX} initY={initY}/>

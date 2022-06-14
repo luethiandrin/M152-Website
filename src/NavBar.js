@@ -15,7 +15,7 @@ import {
   Link
 } from "react-router-dom";
 
-const pages = ['luethi', 'knellwolf', 'mathez'];
+const pages = ['luethi', 'knellwolf', 'mathez', 'webcam'];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

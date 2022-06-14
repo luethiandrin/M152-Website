@@ -49,10 +49,10 @@ export default function MetadataDialogComponent({ metadata, toggleModal, descrip
                     Klick mich:
 
                         <TabPanel>
-                            <img id={eImage} onClick={fullscreenEdited} className='image' src={eImage}></img>
+                            <img id={eImage} onClick={fullscreenEdited} className='image' alt='' src={eImage}></img>
                         </TabPanel>
                         <TabPanel>
-                            <img id={image} onClick={fullscreenDefault} className='image' src={image}></img>
+                            <img id={image} onClick={fullscreenDefault} className='image' alt='' src={image}></img>
                         </TabPanel>
                     </Tabs>
                     <TableContainer sx={{ overflowX: 'revert' }}>
