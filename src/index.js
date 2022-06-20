@@ -15,6 +15,7 @@ import LuethiComponent from './component/luethi/LüthiComponent';
 import MathezComponent from './component/mathez/MathezComponent';
 import KnellwolfComponent from './component/knellwolf/KnellwolfComponent';
 import WebcamComponent from './component/webcam/WebcamComponent';
+import VideoComponent from './component/video/VideoComponent';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +23,7 @@ ReactDOM.render(
       <NavBar />
       <App />
       <Routes>
+        <Route path="" element={<VideoComponent />} />
         <Route path="luethi" element={<LuethiComponent />} />
         <Route path="knellwolf" element={<KnellwolfComponent />} />
         <Route path="mathez" element={<MathezComponent />} />
